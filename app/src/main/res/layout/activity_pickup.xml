@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#89A5B6"> <!-- Warna latar -->
+
+    <!-- Tombol Close -->
+
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan perlengkapan Anda dalam 2 menit"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <!-- Input untuk tanggal Pick Up -->
+    <EditText
+        android:id="@+id/pick_up_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pick up date"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D8E1E8"
+        android:inputType="date"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_marginTop="30dp" />
+
+    <!-- Input untuk tanggal Return -->
+    <EditText
+        android:id="@+id/return_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Return date"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D8E1E8"
+        android:inputType="date"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_marginTop="30dp" />
+
+    <!-- Input untuk Nama Depan -->
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D8E1E8"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_marginTop="30dp" />
+
+    <!-- Input untuk Nama Belakang -->
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D8E1E8"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_marginTop="30dp" />
+
+    <!-- Input untuk Nomor Telepon -->
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomer Telepon"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D8E1E8"
+        android:inputType="phone"
+        android:padding="20dp"
+        android:background="@null"
+        android:layout_marginTop="30dp" />
+
+    <!-- Tombol Reserve -->
+    <Button
+        android:id="@+id/reserve_button"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#1C7DE3"
+        android:padding="20dp"
+        android:text="Reserve"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="16sp" />
+</LinearLayout>
